@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FavoriteViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    FavoriteViewController *viewcontroller = [FavoriteViewController new];
+    UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:viewcontroller];
+    self.window.rootViewController = navigationController;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

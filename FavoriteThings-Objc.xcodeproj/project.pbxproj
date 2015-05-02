@@ -11,6 +11,8 @@
 		71DE96EF19A8D5360021E6F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DE96EE19A8D5360021E6F7 /* AppDelegate.m */; };
 		71DE96F119A8D5360021E6F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DE96F019A8D5360021E6F7 /* Images.xcassets */; };
 		71DE96FD19A8D5360021E6F7 /* FavoriteThings_ObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DE96FC19A8D5360021E6F7 /* FavoriteThings_ObjcTests.m */; };
+		76CE47B51AF5866D00BAB2F9 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CE47B41AF5866D00BAB2F9 /* FavoriteViewController.m */; };
+		76CE47BB1AF58D7200BAB2F9 /* FavoriteThingsTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CE47BA1AF58D7200BAB2F9 /* FavoriteThingsTableViewDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,10 @@
 		71DE96F619A8D5360021E6F7 /* FavoriteThings-ObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FavoriteThings-ObjcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DE96FB19A8D5360021E6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71DE96FC19A8D5360021E6F7 /* FavoriteThings_ObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoriteThings_ObjcTests.m; sourceTree = "<group>"; };
+		76CE47B31AF5866D00BAB2F9 /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
+		76CE47B41AF5866D00BAB2F9 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
+		76CE47B91AF58D7200BAB2F9 /* FavoriteThingsTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavoriteThingsTableViewDataSource.h; path = ../FavoriteThingsTableViewDataSource.h; sourceTree = "<group>"; };
+		76CE47BA1AF58D7200BAB2F9 /* FavoriteThingsTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavoriteThingsTableViewDataSource.m; path = ../FavoriteThingsTableViewDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,10 @@
 			children = (
 				71DE96ED19A8D5360021E6F7 /* AppDelegate.h */,
 				71DE96EE19A8D5360021E6F7 /* AppDelegate.m */,
+				76CE47B31AF5866D00BAB2F9 /* FavoriteViewController.h */,
+				76CE47B41AF5866D00BAB2F9 /* FavoriteViewController.m */,
+				76CE47B91AF58D7200BAB2F9 /* FavoriteThingsTableViewDataSource.h */,
+				76CE47BA1AF58D7200BAB2F9 /* FavoriteThingsTableViewDataSource.m */,
 				71DE96F019A8D5360021E6F7 /* Images.xcassets */,
 				71DE96E919A8D5360021E6F7 /* Supporting Files */,
 			);
@@ -205,6 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76CE47B51AF5866D00BAB2F9 /* FavoriteViewController.m in Sources */,
+				76CE47BB1AF58D7200BAB2F9 /* FavoriteThingsTableViewDataSource.m in Sources */,
 				71DE96EF19A8D5360021E6F7 /* AppDelegate.m in Sources */,
 				71DE96EC19A8D5360021E6F7 /* main.m in Sources */,
 			);
@@ -380,6 +392,7 @@
 				71DE970219A8D5360021E6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71DE970319A8D5360021E6F7 /* Build configuration list for PBXNativeTarget "FavoriteThings-ObjcTests" */ = {
 			isa = XCConfigurationList;
@@ -388,6 +401,7 @@
 				71DE970519A8D5360021E6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
